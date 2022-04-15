@@ -36,6 +36,10 @@
                     },
                     "configurations": {
                         "production": {
+                            "sourceMap": false,
+                            "codeCoverage": true,
+                            "browsers": "ChromeHeadless",
+                            "watch": false,
                             "budgets": [
                                 {
                                     "type": "initial",
